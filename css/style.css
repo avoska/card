@@ -1,0 +1,110 @@
+@font-face {
+    font-family: MuseoSans;
+    src: url(../fonts/MuseoSansCyrl.otf);
+   }
+@font-face {
+    font-family: Avenir_Heavy;
+    src: url(../fonts/AvenirLTStd-Heavy.otf);
+   }
+@font-face {
+    font-family: Avenir_Medium;
+    src: url(../fonts/AvenirLTStd-Medium.otf);
+   }
+@font-face {
+    font-family: Avenir_Oblique;
+    src: url(../fonts/AvenirLTStd-Oblique.otf);
+   }
+@font-face {
+    font-family: MuseoSans;
+    src: url(../fonts/MuseoSansCyrl.otf);
+   }
+body{
+    overflow-x: hidden;
+}
+.navbar{
+    height: 5vh;
+    background-color: #F7FDFE;
+    border-color: transparent;
+}
+.navbar-brand{
+    background:  url("../img/logo.png") center no-repeat;
+    width: 100px;
+}
+.navbar-default .navbar-nav > li > a:hover, .navbar-default .navbar-nav > li > a:focus {
+    color: #0EBFDD;
+    background-color: transparent;
+}
+.btn-default{
+    padding-left: 10px;
+    padding-right: 10px;
+    font-family: MuseoSans;
+    border-radius: 10px;
+    margin-top: 7px;
+    background-color: #0EBFDD;
+    border-color: transparent;
+}
+.btn_text{
+    margin-left: 10px;
+    margin-right: 10px;
+}
+
+.start_bg{
+    color: white;
+    margin-top: -20px;
+    background: url(../img/start_bg.jpg) center no-repeat;
+    background-size: cover;
+    height: 95vh;
+}
+.otstup_top{
+    top: 60vh;
+}
+.start_header{
+    font-family: Avenir_Heavy;
+}
+.start_text{
+    font-family: Avenir_Medium;
+}
+.about_us{
+    height: 100vh;
+}
+.otstup_about{
+    top: 10vh;
+}
+.team{
+    color: white;
+    height: 100vh;
+    background-color: #0EBFDD;
+}
+.team_text{
+    font-family: Avenir_Oblique;
+}
+.otstup_team{
+    top: 20vh;
+}
+.btn-default{
+    background-color: #0EBFDD;
+    border-color: transparent;
+}
+.btn-default:hover{
+    background-color: #3fd2d0;
+    border-color: transparent;
+}
+.otstup_team2{
+    top: 40vh;
+}
+.map{
+    height: 90vh;
+    width: 99vw;
+}
+footer{
+    font-family: MuseoSans;
+    margin-top: -10px;
+    background-color: #45494D;
+    height: 10vh;
+}
+footer a {
+    color: white;
+}
+.otstup_footer{
+    top: 10px;
+}
